@@ -40,6 +40,7 @@ a:focus-visible,.btn:focus-visible{outline:3px solid var(--blue-2);outline-offse
 
 /* dark bands with circuit grid */
 .on-dark{background:var(--navy);color:#e8eef5;position:relative;overflow:hidden;isolation:isolate}
+/* ===== BACKGROUND: dark sections (heading, offer, "ways to work", contact). Blue glow + circuit grid are drawn in CSS here, no image file. To use a photo instead, add a line like:  url("/images/bg-dark.jpg") center/cover,  as the LAST item in the background list below. ===== */
 .on-dark::before{content:"";position:absolute;inset:0;z-index:-1;
   background:
     radial-gradient(600px 380px at 85% 10%,rgba(42,131,240,.35),transparent 70%),
@@ -253,6 +254,7 @@ h1,h2,h3{font-weight:700;letter-spacing:-.015em}
 .card{border-top:3px solid var(--blue);background:linear-gradient(180deg,#fff 0%,#f6faff 100%)}
 .card .icon{background:var(--blue);color:#fff;border-radius:9px}
 .tools{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.console-shot{width:100%;border-radius:var(--radius);box-shadow:0 30px 60px -30px rgba(7,26,47,.6)}
 .console{background:var(--navy);border-radius:var(--radius);border:1px solid rgba(127,182,245,.25);box-shadow:0 30px 60px -30px rgba(7,26,47,.6);color:#dbe6f3;overflow:hidden;min-width:0}
 .console-bar{display:flex;align-items:center;gap:.4rem;padding:.8rem 1rem;background:var(--navy-2);border-bottom:1px solid rgba(127,182,245,.15)}
 .console-bar span{width:10px;height:10px;border-radius:50%;background:#2a4467}

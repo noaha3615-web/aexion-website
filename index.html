@@ -6,6 +6,7 @@
 <title>Aexion Systems | Local IT Support in Northeast Ohio</title>
 <meta name="description" content="Local IT support for Northeast Ohio businesses, onsite and remote. Based in Bainbridge / Chagrin Falls.">
 <meta name="theme-color" content="#071a2f">
+<!-- IMAGE: BROWSER TAB ICON  →  /images/favicon.png  (512 x 512 square) -->
 <link rel="icon" href="/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +15,13 @@
 </head>
 <body>
 <header class="site-nav"><div class="wrap">
+  <!-- ================= IMAGE: LOGO  →  /images/logo.png  (white/light logo, transparent PNG, ~300px wide). If the file is missing, the text logo shows instead. ================= -->
   <a class="brand" href="/" aria-label="Aexion Systems home"><img src="/images/logo.png" alt="Aexion Systems" onerror="this.remove();document.querySelector('.brand-text').hidden=false"><span class="brand-text" hidden><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span><span>AEXION <b>SYSTEMS</b></span></span></a>
   <nav><a href="/" aria-current="page">Home</a><a href="/services/">Services</a><a href="/#m365-checkup">M365 Check-Up</a><a class="cta" href="#contact">Free checkup</a></nav>
 </div></header>
 <main>
 <section class="hero on-dark">
+  <!-- ================= IMAGE: HEADING BACKGROUND  →  /images/hero.jpg  (2400 x 1350 landscape; keep the subject on the RIGHT, the left is covered by the dark fade behind the text). Darkness of the fade: ".hero .hero-bg::after" in styles.css. ================= -->
   <div class="hero-bg"><img src="/images/hero.jpg" alt="" onerror="this.remove()"></div>
   <div class="wrap">
     <div class="hero-copy">
@@ -28,6 +31,7 @@
       <div class="actions"><a class="btn" href="#contact">Book a free IT checkup</a><a class="btn ghost" href="/services/">See services &amp; pricing</a></div>
       <div class="hero-meta"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>No contract to start</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Fixed prices</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>On-site in NE Ohio</span></div>
     </div>
+    <!-- ================= HEADING EXAMPLE CARDS (ticket + office status). These are text, not images: edit the wording below, or delete this whole <div class="hero-visual"> block to remove them. ================= -->
     <div class="hero-visual" style="display:grid;gap:1rem;justify-items:end">
       <div class="ticket" style="position:static"><b>TICKET #1042 · RESOLVED</b>New hire laptop ready by 9:00</div>
       <div class="status" style="position:static;min-width:260px" aria-hidden="true">
@@ -59,6 +63,7 @@
 </section>
 
 <section class="split">
+  <!-- ================= IMAGE: BIG PHOTO NEXT TO "Spend your day on customers"  →  /images/office.jpg  (about 1600 x 1600) ================= -->
   <div class="photo"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M16 3.5a4 4 0 0 1 0 9M22 21a7 7 0 0 0-4-6.3"/></svg></div><img src="/images/office.jpg" alt="Office staff working at tidy, well set-up desks" onload="var g=this.closest(&quot;[data-gallery]&quot;);if(g)g.hidden=false" onerror="this.remove()"></div>
   <div class="copy">
     <span class="eyebrow">Focus on your business</span>
@@ -88,6 +93,8 @@
       </ul>
       <p style="font-size:.85rem;color:var(--muted)">Monitored 24/7. Response during business hours.</p>
     </div>
+    <!-- ================= TICKETING / ALERTS EXAMPLE. Two options: (1) edit the example rows below, or (2) drop a real screenshot at /images/console.png (about 1200 x 900, blur client names first) and it automatically replaces this example. ================= -->
+    <img class="console-shot" src="/images/console.png" alt="Example of our monitoring and ticket dashboard" onload="this.nextElementSibling.remove();this.hidden=false" onerror="this.remove()" hidden>
     <div class="console" aria-hidden="true">
       <div class="console-bar"><span></span><span></span><span></span><b>Alerts · last 24 hours</b></div>
       <div class="console-row"><i class="dot"></i><div><strong>FRONT-DESK-PC</strong><small>Low disk space · cleaned up automatically</small></div><em class="ok">Resolved</em></div>
@@ -170,6 +177,7 @@
       <span class="eyebrow">Recent work</span>
       <h2>Offices we've set up</h2>
     </div>
+    <!-- ================= IMAGES: RECENT WORK GALLERY  →  /images/work-1.jpg (1600 x 1000 wide), /images/work-2.jpg and /images/work-3.jpg (1000 x 1250 tall). This section stays hidden until at least one of these files exists. Edit the captions in the <figcaption> tags. ================= -->
     <div class="gallery">
       <figure><div class="photo" style="aspect-ratio:16/10"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="13" rx="2"/><path d="M8 21h8M12 16v5"/></svg></div><img src="/images/work-1.jpg" alt="Row of standardized desks with mounted monitors" onload="var g=this.closest(&quot;[data-gallery]&quot;);if(g)g.hidden=false" onerror="this.remove()"></div><figcaption>Standardized desks with mounted monitors</figcaption></figure>
       <figure><div class="photo" style="aspect-ratio:4/5"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v5a5 5 0 0 0 10 0V3M5 3h4M15 3h4M12 13v8"/></svg></div><img src="/images/work-2.jpg" alt="Cable management under a desk" onload="var g=this.closest(&quot;[data-gallery]&quot;);if(g)g.hidden=false" onerror="this.remove()"></div><figcaption>Cable management</figcaption></figure>
