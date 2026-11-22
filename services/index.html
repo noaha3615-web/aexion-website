@@ -6,8 +6,8 @@
 <title>Services & Pricing | Aexion Systems</title>
 <meta name="description" content="IT services and pricing for Northeast Ohio businesses: workstation setups, phone and device audits, Microsoft 365, help desk and managed IT plans.">
 <meta name="theme-color" content="#071a2f">
-<!-- IMAGE: BROWSER TAB ICON  →  /images/favicon.png  (512 x 512 square) -->
-<link rel="icon" href="/images/A-Logo_Gradient.png">
+<!-- IMAGE: BROWSER TAB ICON  →  /images/favicon.ico -->
+<link rel="icon" href="/images/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
@@ -15,8 +15,8 @@
 </head>
 <body>
 <header class="site-nav"><div class="wrap">
-  <!-- ================= IMAGE: LOGO  →  /images/logo.png  (white/light logo, transparent PNG, ~300px wide). If the file is missing, the text logo shows instead. ================= -->
-  <a class="brand" href="/" aria-label="Aexion Systems home"><img src="/images/A-Logo_Gradient.png" alt="Aexion Systems" onerror="this.remove();document.querySelector('.brand-text').hidden=false"><span class="brand-text" hidden><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span><span>AEXION <b>SYSTEMS</b></span></span></a>
+  <!-- ================= IMAGE: LOGO MARK  →  /images/logo.png  (square-ish mark, shown beside the AEXION SYSTEMS text). If the file is missing, a simple drawn mark shows instead. ================= -->
+  <a class="brand" href="/" aria-label="Aexion Systems home"><img class="logo-mark" src="/images/logo.png" alt="" onerror="this.replaceWith(document.getElementById('mark-tpl').content.cloneNode(true))"><template id="mark-tpl"><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span></template><span>AEXION <b>SYSTEMS</b></span></a>
   <nav><a href="/">Home</a><a href="/services/" aria-current="page">Services</a><a href="/#m365-checkup">M365 Check-Up</a><a class="cta" href="#contact">Free checkup</a></nav>
 </div></header>
 <main>
@@ -27,6 +27,8 @@
     <p class="lead">Every service has a clear scope and a clear price, so you know what you're getting before we start.</p>
     <div class="jump"><a href="#projects">One-time projects</a><a href="#monthly">Monthly services</a><a href="#bundles">All-in plans</a></div>
   </div>
+  <!-- ================= IMAGE: SERVICES PAGE ILLUSTRATION  →  /images/network-illustration.jpg  (1400 x 930, white background) ================= -->
+  <img class="page-hero-art" src="/images/network-illustration.jpg" alt="Illustration of a connected office network" onerror="this.remove()">
 </section>
 <div class="wrap"><div class="entry"><div><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><div><strong>Start here: free 30-minute IT &amp; security checkup</strong><span>We visit, look things over, and leave you a short written list of what to fix first. No cost, no contract.</span></div></div><a class="btn" href="#contact">Book a free checkup</a></div></div>
 <section class="section" id="projects">

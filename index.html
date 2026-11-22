@@ -6,8 +6,8 @@
 <title>Aexion Systems | Local IT Support in Northeast Ohio</title>
 <meta name="description" content="Local IT support for Northeast Ohio businesses, onsite and remote. Based in Bainbridge / Chagrin Falls.">
 <meta name="theme-color" content="#071a2f">
-<!-- IMAGE: BROWSER TAB ICON  →  /images/favicon.png  (512 x 512 square) -->
-<link rel="icon" href="/images/Aexion-Atera-Company-Icon.ico">
+<!-- IMAGE: BROWSER TAB ICON  →  /images/favicon.ico -->
+<link rel="icon" href="/images/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
@@ -15,8 +15,8 @@
 </head>
 <body>
 <header class="site-nav"><div class="wrap">
-  <!-- ================= IMAGE: LOGO  →  /images/logo.png  (white/light logo, transparent PNG, ~300px wide). If the file is missing, the text logo shows instead. ================= -->
-  <a class="brand" href="/" aria-label="Aexion Systems home"><img src="/images/A-Logo_Gradient.png" alt="Aexion Systems" onerror="this.remove();document.querySelector('.brand-text').hidden=false"><span class="brand-text" hidden><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span><span>AEXION <b>SYSTEMS</b></span></span></a>
+  <!-- ================= IMAGE: LOGO MARK  →  /images/logo.png  (square-ish mark, shown beside the AEXION SYSTEMS text). If the file is missing, a simple drawn mark shows instead. ================= -->
+  <a class="brand" href="/" aria-label="Aexion Systems home"><img class="logo-mark" src="/images/logo.png" alt="" onerror="this.replaceWith(document.getElementById('mark-tpl').content.cloneNode(true))"><template id="mark-tpl"><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span></template><span>AEXION <b>SYSTEMS</b></span></a>
   <nav><a href="/" aria-current="page">Home</a><a href="/services/">Services</a><a href="/#m365-checkup">M365 Check-Up</a><a class="cta" href="#contact">Free checkup</a></nav>
 </div></header>
 <main>
@@ -156,6 +156,9 @@
       <p style="color:var(--muted)">A full review of your Microsoft 365 account. The fee is credited toward Microsoft 365 Management if you sign up within 60 days.</p>
       <div class="actions"><a class="btn" href="#contact">Claim a spot</a></div>
     </div>
+    <div style="display:grid;gap:1.25rem">
+    <!-- ================= IMAGE: M365 OFFER PHOTO  →  /images/m365.jpg  (1600 x 1066 landscape) ================= -->
+    <div class="photo" style="aspect-ratio:16/9"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8z"/></svg></div><img src="/images/m365.jpg" alt="Microsoft 365 apps on a tablet screen" onload="var g=this.closest(&quot;[data-gallery]&quot;);if(g)g.hidden=false" onerror="this.remove()"></div>
     <article class="svc-card">
       <span class="sq"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8z"/></svg></span>
       <h3>What's included</h3>
@@ -168,6 +171,7 @@
         <li>30-minute walkthrough and fix list</li>
       </ul>
     </article>
+    </div>
   </div>
 </section>
 

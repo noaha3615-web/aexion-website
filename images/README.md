@@ -4,11 +4,13 @@ Upload a file with the exact name below into this `images/` folder. It appears o
 
 | File name | Where it shows | Size / shape |
 |---|---|---|
-| logo.png | Header, top-left (white/light logo, transparent background) | ~300 px wide |
-| favicon.png | Browser tab icon | 512 x 512 |
+| logo.png | Logo mark beside the AEXION SYSTEMS text in the header | ~150 px |
+| favicon.ico | Browser tab icon | 16-48 px |
 | hero.jpg | Background behind the big home page heading (subject on the right side) | 2400 x 1350 |
 | office.jpg | Big photo next to "Spend your day on customers, not computers" | 1600 x 1600 |
 | console.png | Replaces the example ticket/alert feed in the "Powered by Atera" section (blur client names) | 1200 x 900 |
+| m365.jpg | Photo above the M365 Check-Up checklist | 1600 x 1066 |
+| network-illustration.jpg | Illustration in the Services page heading | 1400 x 930 |
 | work-1.jpg | "Recent work" gallery, wide photo | 1600 x 1000 |
 | work-2.jpg | "Recent work" gallery, tall photo | 1000 x 1250 |
 | work-3.jpg | "Recent work" gallery, tall photo | 1000 x 1250 |
