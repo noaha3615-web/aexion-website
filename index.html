@@ -6,82 +6,143 @@
 <title>Aexion Systems | Local IT Support in Northeast Ohio</title>
 <meta name="description" content="Local IT support for Northeast Ohio businesses, onsite and remote. Based in Bainbridge / Chagrin Falls.">
 <meta name="theme-color" content="#071a2f">
+<link rel="icon" href="/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<header class="site-nav"><div class="wrap"><a class="brand" href="/">AEXION <span>SYSTEMS</span></a><nav><a href="/" aria-current="page">Home</a><a href="/services/">Services</a><a href="/#m365-checkup">M365 Check-Up</a><a href="#contact">Contact</a></nav></div></header>
-<section class="hero">
+<header class="site-nav"><div class="wrap">
+  <a class="brand" href="/" aria-label="Aexion Systems home"><img src="/images/logo.png" alt="Aexion Systems" onerror="this.remove();document.querySelector('.brand-text').hidden=false"><span class="brand-text" hidden><span class="mark"><svg viewBox="0 0 24 24"><path d="M4 20 12 4l8 16M8 13h8"/></svg></span><span>AEXION <b>SYSTEMS</b></span></span></a>
+  <nav><a href="/" aria-current="page">Home</a><a href="/services/">Services</a><a href="/#m365-checkup">M365 Check-Up</a><a class="cta" href="#contact">Free checkup</a></nav>
+</div></header>
+<main>
+<section class="hero on-dark">
   <div class="wrap">
-    <span class="eyebrow">Local IT · Northeast Ohio</span>
-    <h1>Your IT department, without hiring one.</h1>
-    <p>Onsite and remote IT support for businesses with 10 to 75 people and no IT person on staff. Plain English, clear prices, and a real person who shows up.</p>
-    <div class="actions"><a class="btn" href="#contact">Book a free checkup</a><a class="btn ghost" href="/services/" style="color:#cfe3fa;border-color:#7fb6f5">See services &amp; pricing</a></div>
+    <div class="hero-copy">
+      <span class="eyebrow">Local IT · Northeast Ohio</span>
+      <h1>Your IT department, <em>without hiring one.</em></h1>
+      <p class="lead">Onsite and remote IT for businesses with 10 to 75 people and no IT person on staff. Clear packages, clear prices, and a real person who shows up.</p>
+      <div class="actions"><a class="btn" href="#contact">Book a free checkup</a><a class="btn ghost" href="/services/">See services &amp; pricing</a></div>
+      <div class="hero-meta"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>No contract to start</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Fixed prices</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>On-site in NE Ohio</span></div>
+    </div>
+    <div class="hero-visual">
+      <div class="photo" style="aspect-ratio:4/3"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="13" rx="2"/><path d="M8 21h8M12 16v5"/></svg></div><img src="/images/hero.jpg" alt="A finished, cable-managed office workstation set up by Aexion" loading="lazy" onerror="this.remove()"></div>
+      <div class="ticket"><b>TICKET #1042 · RESOLVED</b>New hire laptop ready by 9:00</div>
+      <div class="status" aria-hidden="true">
+        <span class="head">Office status</span>
+        <div class="row"><span><i class="dot"></i>Computers healthy</span><b>24 / 24</b></div>
+        <div class="row"><span><i class="dot"></i>Backups last night</span><b>OK</b></div>
+        <div class="row"><span><i class="dot amber"></i>Updates pending</span><b>2</b></div>
+      </div>
+    </div>
   </div>
 </section>
+<section class="strip"><div class="wrap">
+  <div><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>Local to Chagrin Falls</div>
+  <div><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>Monitored 24/7, response during business hours</div>
+  <div><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="m3 6 1 1 2-2M3 12l1 1 2-2M3 18l1 1 2-2"/></svg></span>Every request tracked</div>
+  <div><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></svg></span>Plain English, no jargon</div>
+</div></section>
 
-<section class="tier" id="m365-checkup">
+<section class="section">
   <div class="wrap">
-    <header>
-      <span class="eyebrow">Introductory offer</span>
-      <h2>Microsoft 365 Administration &amp; Security Check-Up: $500</h2>
-      <p>A one-time review of your Microsoft 365 account, at an introductory price for the first 5 companies. The fee is credited toward Microsoft 365 Management if you sign up within 60 days.</p>
-    </header>
-    <div class="grid">
-      <article class="card">
-        <h3>What we review</h3>
-        <ul class="inc">
-          <li>Licenses, user accounts and admin access</li>
-          <li>Sign-in protection and MFA</li>
-          <li>Email forwarding and spoofing protection</li>
-          <li>Shared files and backup</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h3>What you get</h3>
-        <ul class="inc">
-          <li>A short written report in plain English</li>
-          <li>A 30-minute walkthrough of the findings</li>
-          <li>A prioritized fix list. Any changes are agreed separately.</li>
-        </ul>
-      </article>
+    <div class="section-head">
+      <span class="eyebrow">How it works</span>
+      <h2>Start small. Grow into it when it makes sense.</h2>
+      <p>Most clients start with one project, see how we work, then hand us more over time.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="num">1</span><h3>Free 30-minute checkup</h3><p>We look at backups, passwords, Wi-Fi, computers and Microsoft 365, and give you a short written list of what to fix first.</p><span class="tag">Free · no contract</span></div>
+      <div class="step"><span class="num">2</span><h3>One fixed-price project</h3><p>Clean up desks, audit your phone bill, or tighten up Microsoft 365. A clear scope and a clear finish line.</p><span class="tag">From $150</span></div>
+      <div class="step"><span class="num">3</span><h3>Ongoing care</h3><p>Pick one monthly service or an all-in plan. Your computers are watched 24/7, and your staff have someone to call.</p><span class="tag">From $6 / user / mo</span></div>
     </div>
   </div>
 </section>
 
-<section class="tier" id="services">
+<section class="section offer on-dark" id="m365-checkup">
   <div class="wrap">
-    <header>
+    <div style="display:grid;gap:1.1rem">
+      <span class="eyebrow">Introductory offer · first 5 companies</span>
+      <h2 style="font-size:clamp(1.8rem,3.6vw,2.5rem)">Microsoft 365 Administration &amp; Security Check-Up</h2>
+      <div class="price-big">$500<small>one-time</small></div>
+      <p class="lead">A full review of your Microsoft 365 account. The fee is credited toward Microsoft 365 Management if you sign up within 60 days.</p>
+      <div class="actions"><a class="btn" href="#contact">Claim a spot</a></div>
+    </div>
+    <div class="offer-card">
+      <h3>What we review</h3>
+      <ul class="checklist">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Licenses, user accounts and admin access</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Sign-in protection and MFA</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Email forwarding and spoofing protection</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Shared files and backup</li>
+      </ul>
+      <h3>What you get</h3>
+      <ul class="checklist">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>A short written report in plain English</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>A 30-minute walkthrough and a prioritized fix list</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="services">
+  <div class="wrap">
+    <div class="section-head">
       <span class="eyebrow">What we do</span>
-      <h2>Services</h2>
-      <p>Clear packages with set prices. <a href="/services/">See the full catalog and pricing.</a></p>
-    </header>
-    <div class="svc-list">
-      <div><h3>Business IT Support</h3><p>Help desk for your staff, remote and on-site.</p></div>
-      <div><h3>Microsoft 365</h3><p>Email, Teams, files, new hires and departures.</p></div>
-      <div><h3>Networks &amp; Wi-Fi</h3><p>Reliable Wi-Fi, network and printer support.</p></div>
-      <div><h3>Devices &amp; Employee Setup</h3><p>Ready-Day-One workstations and iPad/phone management.</p></div>
-      <div><h3>Cabling &amp; Infrastructure</h3><p>Clean cable runs, mounting and desk setups.</p></div>
-      <div><h3>Storage &amp; Backup Planning</h3><p>Backups you can actually restore from.</p></div>
-      <div><h3>Documentation &amp; Process</h3><p>Know what you have and how it's set up.</p></div>
-      <div><h3>Security Readiness</h3><p>MFA, password managers and staff training.</p></div>
-      <div><h3>Technology Consulting</h3><p>Phone bills, vendors and tech planning.</p></div>
+      <h2>Everything a small office needs from IT</h2>
+      <p>Each service comes as a clear package with a set price. <a href="/services/">See the full catalog and pricing →</a></p>
+    </div>
+    <div class="tiles">
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/><path d="M19 20a3 3 0 0 1-3 2h-3"/></svg></span><h3>Business IT Support</h3><p>A help desk for your staff, remote and on-site.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 8z"/></svg></span><h3>Microsoft 365</h3><p>Email, Teams and files, plus new hires and departures.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><path d="M12 19.5h.01"/></svg></span><h3>Networks &amp; Wi-Fi</h3><p>Reliable Wi-Fi, network and printer support.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="13" rx="2"/><path d="M8 21h8M12 16v5"/></svg></span><h3>Ready-Day-One Workstations</h3><p>Matching desk setups, mounted monitors, tidy cables.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg></span><h3>Phones, iPads &amp; Bills</h3><p>Device management and a monthly check on the carrier bill.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v5a5 5 0 0 0 10 0V3M5 3h4M15 3h4M12 13v8"/></svg></span><h3>Cabling &amp; Infrastructure</h3><p>Clean cable runs, racks and mounting.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><h3>Storage &amp; Backup</h3><p>Backups you can actually restore from.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><h3>Security Readiness</h3><p>MFA, password managers and staff training.</p></div>
+      <div class="tile"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5z"/></svg></span><h3>Tech Planning</h3><p>Vendors, documentation and a plan for what's next.</p></div>
     </div>
   </div>
 </section>
 
-<section class="contact" id="contact">
+<section class="section" id="work" data-gallery>
   <div class="wrap">
-    <h2>Book your free 30-minute checkup</h2>
-    <dl>
-      <dt>Call / text</dt><dd>440-804-6077</dd>
-      <dt>Email</dt><dd>intake@aexionsystems.com</dd>
-      <dt>Area</dt><dd>Chagrin Falls &amp; Northeast Ohio</dd>
-    </dl>
+    <div class="section-head">
+      <span class="eyebrow">Recent work</span>
+      <h2>Offices we've set up</h2>
+    </div>
+    <div class="gallery">
+      <figure><div class="photo" style="aspect-ratio:16/10"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="13" rx="2"/><path d="M8 21h8M12 16v5"/></svg></div><img src="/images/work-1.jpg" alt="Row of standardized desks with mounted monitors" loading="lazy" onerror="this.remove()"></div><figcaption>Standardized desks with mounted monitors</figcaption></figure>
+      <figure><div class="photo" style="aspect-ratio:4/5"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v5a5 5 0 0 0 10 0V3M5 3h4M15 3h4M12 13v8"/></svg></div><img src="/images/work-2.jpg" alt="Cable management under a desk" loading="lazy" onerror="this.remove()"></div><figcaption>Cable management</figcaption></figure>
+      <figure><div class="photo" style="aspect-ratio:4/5"><div class="fallback"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><path d="M12 19.5h.01"/></svg></div><img src="/images/work-3.jpg" alt="Network rack and Wi-Fi setup" loading="lazy" onerror="this.remove()"></div><figcaption>Network and Wi-Fi</figcaption></figure>
+    </div>
   </div>
 </section>
+<script>
+/* Hide the gallery until real photos are uploaded */
+(function(){var s=document.querySelector('[data-gallery]');var imgs=s.querySelectorAll('img');var ok=0,done=0;
+function chk(){if(done===imgs.length&&ok===0)s.hidden=true;}
+imgs.forEach(function(i){if(i.complete&&i.naturalWidth){ok++;done++;}else{i.addEventListener('load',function(){ok++;done++;chk();});i.addEventListener('error',function(){done++;chk();});}});chk();})();
+</script>
 
-<footer><div class="wrap">© 2026 Aexion Systems · Bainbridge / Chagrin Falls, Ohio</div></footer>
+<section class="contact on-dark" id="contact">
+  <div class="wrap">
+    <div style="display:grid;gap:1rem">
+      <span class="eyebrow">Start with a free checkup</span>
+      <h2>Book your free 30-minute IT &amp; security checkup</h2>
+      <p class="lead">Alex comes to your office, takes a look, and leaves you a short written list of what's working, what's at risk and what to fix first. No cost, no contract, no pressure.</p>
+    </div>
+    <div class="contact-card">
+      <div class="line"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg></span><div><small>Call or text</small><a href="tel:4408046077">440-804-6077</a></div></div>
+      <div class="line"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span><div><small>Email</small><a href="mailto:intake@aexionsystems.com">intake@aexionsystems.com</a></div></div>
+      <div class="line"><span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><small>Service area</small><span>Chagrin Falls &amp; Northeast Ohio</span></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><span>© 2026 Aexion Systems · Bainbridge / Chagrin Falls, Ohio</span><span><a href="/services/">Services &amp; pricing</a> · <a href="tel:4408046077">440-804-6077</a></span></div></footer>
 </body>
 </html>
