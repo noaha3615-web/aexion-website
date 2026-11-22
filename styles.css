@@ -277,3 +277,13 @@ h1,h2,h3{font-weight:700;letter-spacing:-.015em}
 .page-hero h1,.page-hero .lead{max-width:min(20ch,100%)}
 .page-hero .lead{max-width:46ch}
 @media (max-width:900px){.page-hero-art{position:static;transform:none;width:calc(100% - 40px);margin:2rem auto 0;display:block}}
+
+/* ===== v3: white top bar; no grid over the heading photo ===== */
+.site-nav{background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);box-shadow:0 2px 12px -6px rgba(7,26,47,.15)}
+.brand{color:var(--navy)}
+.brand b{color:var(--blue)}
+.site-nav nav a{color:#3d4d63}
+.site-nav nav a:hover,.site-nav nav a[aria-current]{color:var(--navy)}
+.site-nav nav a.cta,.site-nav nav a.cta:hover{color:#fff}
+/* heading background: photo + dark fade only (no circuit grid). To bring the grid back, delete this rule. */
+.hero.on-dark::before{background:none}
