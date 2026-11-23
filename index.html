@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
-<link rel="stylesheet" href="/styles.css?v=202611230116">
+<link rel="stylesheet" href="/styles.css?v=202611230139">
 </head>
 <body>
 <header class="site-nav"><div class="wrap">
@@ -28,7 +28,7 @@
       <span class="eyebrow">Managed IT · Northeast Ohio</span>
       <h1>Your IT department, <em>without hiring one.</em></h1>
       <p class="lead">Aexion Systems is the IT department for small offices that don't have one. We handle your help desk, Microsoft 365, devices, Wi-Fi and security, and we show up in person when you need us.</p>
-      <div class="actions"><a class="btn" href="#contact">Book a free IT checkup</a><a class="btn ghost" href="/services/">See services &amp; pricing</a></div>
+      <div class="actions"><a class="btn" href="#contact">Book a free checkup</a><a class="btn ghost" href="/services/">See services &amp; pricing</a></div>
       <div class="hero-meta"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>No contract to start</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>Fixed prices</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>On-site in NE Ohio</span></div>
     </div>
       </div>
@@ -69,11 +69,13 @@
 </section>
 
 <section class="section alt" id="tools">
-  <div class="wrap tools">
-    <div style="display:grid;gap:1.1rem;align-content:center">
-      <span class="eyebrow">Powered by Atera</span>
-      <h2 style="font-size:clamp(1.8rem,3.6vw,2.5rem)">Every computer watched. Every request tracked.</h2>
-      <p style="color:var(--muted)">Our support is powered by Atera, a professional IT monitoring and help desk platform. A small agent on each computer reports its health around the clock, so we often fix problems before your staff notice them.</p>
+  <div class="wrap">
+    <div class="tools-head">
+      <div style="display:grid;gap:1rem">
+        <span class="eyebrow">Powered by Atera</span>
+        <h2 style="font-size:clamp(1.8rem,3.6vw,2.5rem)">Every computer watched. Every request tracked.</h2>
+        <p style="color:var(--muted)">Our support is powered by Atera, a professional IT monitoring and help desk platform. A small agent on each computer reports its health around the clock, so we often fix problems before your staff notice them.</p>
+      </div>
       <ul class="ticks">
         <li>24/7 monitoring and alerts on every computer</li>
         <li>Windows and software updates applied on a schedule</li>
@@ -81,18 +83,12 @@
         <li>Every request logged as a ticket, from open to resolved</li>
         <li>Monthly report on device health and work done</li>
       </ul>
-      <p style="font-size:.85rem;color:var(--muted)">Monitored 24/7.</p>
     </div>
-    <!-- ================= TICKETING / ALERTS EXAMPLE. Two options: (1) edit the example rows below, or (2) drop a real screenshot at /images/console.png (about 1200 x 900, blur client names first) and it automatically replaces this example. ================= -->
-    <img class="console-shot" src="/images/console.png" alt="Example of our monitoring and ticket dashboard" onload="this.nextElementSibling.remove();this.hidden=false" onerror="this.remove()" hidden>
-    <div class="console" aria-hidden="true">
-      <div class="console-bar"><span></span><span></span><span></span><b>Alerts · last 24 hours</b></div>
-      <div class="console-row"><i class="dot"></i><div><strong>FRONT-DESK-PC</strong><small>Low disk space · cleaned up automatically</small></div><em class="ok">Resolved</em></div>
-      <div class="console-row"><i class="dot"></i><div><strong>Office printer</strong><small>Offline 6:42 AM · back online 6:51 AM</small></div><em class="ok">Resolved</em></div>
-      <div class="console-row"><i class="dot amber"></i><div><strong>2 laptops</strong><small>Windows updates scheduled for 8:00 PM</small></div><em class="warn">Scheduled</em></div>
-      <div class="console-row"><i class="dot"></i><div><strong>Ticket #1042</strong><small>New hire laptop set up and tested</small></div><em class="ok">Closed</em></div>
-      <div class="console-foot"><span>Devices online <b>24 / 24</b></span><span>Backups <b>OK</b></span><span>Open tickets <b>1</b></span></div>
-    </div>
+    <!-- ================= IMAGE: ATERA TICKETING SCREENSHOT  →  /images/console.png  (about 1660 x 890; blur client names first). Shown full width inside a browser-style frame. ================= -->
+    <figure class="browser-frame">
+      <div class="browser-bar"><span></span><span></span><span></span><div class="browser-url">app.atera.com · Tickets</div></div>
+      <img src="/images/console.png" alt="Our Atera help desk: every request logged as a ticket and tracked to completion" loading="lazy">
+    </figure>
   </div>
 </section>
 
