@@ -339,3 +339,19 @@ h1,h2,h3{font-weight:700;letter-spacing:-.015em}
 .way-slim .sub{color:#b4c4d8;font-size:.92rem}
 .way-slim .sub b{color:var(--blue-2)}
 @media (max-width:700px){.ways-slim{grid-template-columns:1fr}}
+
+/* ===== v8: bold price cards ===== */
+.price-band{padding-block:3.5rem;background:var(--surface)}
+.pcards{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.pc{border:1px solid var(--line);border-radius:16px;padding:2rem;display:grid;gap:.6rem;align-content:start;background:linear-gradient(180deg,#fff,#f4f8ff);box-shadow:var(--shadow)}
+.pc.hot{background:var(--navy);border-color:var(--navy);color:#e8eef5}
+.pc .k{font:700 .72rem var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--blue)}
+.pc.hot .k{color:var(--blue-2)}
+.pc .big{font:700 clamp(2.8rem,6vw,3.6rem)/1 var(--f-display);color:var(--ink);display:flex;flex-wrap:wrap;align-items:baseline;gap:.2rem .4rem}
+.pc.hot .big{color:#fff}
+.pc .big small{font:500 1rem var(--f-body);color:var(--muted)}
+.pc.hot .big small{color:#9fb3cb}
+.pc p{color:var(--muted)}
+.pc.hot p{color:#b4c4d8}
+.pc .btn{justify-self:start;margin-top:.6rem}
+@media (max-width:700px){.pcards{grid-template-columns:1fr}}
