@@ -11,6 +11,7 @@ Upload a file with the exact name below into this `images/` folder. It appears o
 | console.png | Replaces the example ticket/alert feed in the "Powered by Atera" section (blur client names) | 1200 x 900 |
 | m365.jpg | Photo above the M365 Check-Up checklist | 1600 x 1066 |
 | network-illustration.jpg | Illustration in the Services page heading | 1400 x 930 |
+| workstations.jpg | Workstation packages graphic on the Services page | 1774 x 887 |
 | work-1.jpg | "Recent work" gallery, wide photo | 1600 x 1000 |
 | work-2.jpg | "Recent work" gallery, tall photo | 1000 x 1250 |
 | work-3.jpg | "Recent work" gallery, tall photo | 1000 x 1250 |

@@ -287,3 +287,32 @@ h1,h2,h3{font-weight:700;letter-spacing:-.015em}
 .site-nav nav a.cta,.site-nav nav a.cta:hover{color:#fff}
 /* heading background: photo + dark fade only (no circuit grid). To bring the grid back, delete this rule. */
 .hero.on-dark::before{background:none}
+
+/* ===== v4: contact section with art + socials; workstation packages ===== */
+.contact{padding-block:5.5rem}
+.contact .wrap{grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:center}
+.contact-copy{display:grid;gap:1.1rem;min-width:0}
+.mini-steps{list-style:none;margin:.4rem 0 .2rem;padding:0;display:grid;gap:.9rem}
+.mini-steps li{display:flex;gap:.9rem;align-items:flex-start}
+.mini-steps b{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:rgba(95,176,255,.15);border:1px solid rgba(95,176,255,.45);color:#cfe3fa;font-size:.8rem}
+.mini-steps strong{display:block;color:#fff;font-size:.98rem}
+.mini-steps span{display:block;color:#a9bbd0;font-size:.9rem}
+.contact-card{padding:0;overflow:hidden;gap:0}
+.contact-art{display:block;width:100%;height:auto}
+.contact-lines{padding:1.5rem 1.75rem 1.75rem;display:grid;gap:1rem}
+.socials{display:flex;flex-wrap:wrap;align-items:center;gap:.6rem;padding-top:1rem;border-top:1px solid var(--line)}
+.socials small{width:100%;font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.social{display:inline-flex;align-items:center;gap:.45rem;padding:.5rem .85rem;border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;font-weight:600;font-size:.88rem;transition:border-color .15s,background .15s}
+.social:hover{border-color:var(--blue);background:var(--blue-soft)}
+.social svg{width:16px;height:16px;fill:var(--blue)}
+.foot-links{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:2rem}
+.tier-card{position:relative;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--blue);border-radius:var(--radius);padding:1.6rem;display:grid;gap:.8rem;align-content:start;box-shadow:var(--shadow)}
+.tier-card.hot{border:2px solid var(--blue);border-top-width:3px}
+.tier-card .badge{position:absolute;top:-.8rem;right:1.2rem}
+.tier-name{font:700 .78rem var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.tier-price{font:700 2.4rem/1 var(--f-display);font-variant-numeric:tabular-nums}
+.tier-price small{font:500 .85rem var(--f-body);color:var(--muted);margin-left:.35rem}
+.ws-graphic{display:block;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow)}
+.ws-graphic img{width:100%;height:auto}
+@media (max-width:900px){.contact .wrap{grid-template-columns:1fr}.tiers{grid-template-columns:1fr}}
