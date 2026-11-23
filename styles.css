@@ -356,3 +356,16 @@ h1,h2,h3{font-weight:700;letter-spacing:-.015em}
 .contact-lines .line small{display:block;font:500 11px var(--f-mono);letter-spacing:.1em;text-transform:uppercase}
 .contact-lines.dark .line a,.contact-lines.dark .line span:not(.icon){font-weight:600;text-decoration:none;font-size:.98rem;word-break:break-word}
 .contact-lines.dark .icon{width:40px;height:40px}
+
+/* ===== v7: slim "ways to work" band ===== */
+.ways-band{padding-block:2.5rem}
+.ways-slim{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+.way-slim{display:grid;gap:.35rem;padding:1.4rem 1.6rem;border-radius:var(--radius);border:1px solid rgba(127,182,245,.25);background:rgba(255,255,255,.04);text-decoration:none;color:#e8eef5;transition:border-color .2s,transform .2s}
+.way-slim:hover{border-color:var(--blue-2);transform:translateY(-2px)}
+.way-slim.hot{border-color:var(--blue);background:linear-gradient(180deg,rgba(42,131,240,.18),rgba(42,131,240,.04))}
+.way-slim .k{font:700 .7rem var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:#9fb3cb}
+.way-slim strong{font:700 1.4rem/1.25 var(--f-display);color:#fff}
+.way-slim strong em{font-style:normal;color:var(--blue-2)}
+.way-slim .sub{color:#b4c4d8;font-size:.92rem}
+.way-slim .sub b{color:var(--blue-2)}
+@media (max-width:700px){.ways-slim{grid-template-columns:1fr}}
